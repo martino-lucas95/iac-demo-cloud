@@ -1,0 +1,21 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfvars
+*.tfplan
+.terraform.lock.hcl
+
+# Pulumi
+node_modules/
+Pulumi.*.yaml
+!Pulumi.yaml
+!Pulumi.dev.yaml
+
+# Node
+npm-debug.log
+yarn-error.log
+
+# System
+.DS_Store
+
