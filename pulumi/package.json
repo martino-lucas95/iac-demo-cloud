@@ -1,5 +1,5 @@
 {
-    "name": "pulumi-iac-demo",
+    "name": "iac-demo",
     "main": "index.ts",
     "devDependencies": {
         "@types/node": "^18",

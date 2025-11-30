@@ -1,5 +1,5 @@
-name: pulumi-iac-demo
-description: demo cloud
+name: iac-demo
+description: A minimal Kubernetes TypeScript Pulumi program
 runtime:
   name: nodejs
   options:
