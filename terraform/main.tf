@@ -41,7 +41,7 @@ resource "kubernetes_deployment" "nginx" {
 
       spec {
         container {
-          image = "nginx:latest"
+          image = "nginx:1.25.3"
           name  = "nginx"
           
           port {

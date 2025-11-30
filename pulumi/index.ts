@@ -19,7 +19,7 @@ const deployment = new k8s.apps.v1.Deployment("nginx", {
             spec: { 
                 containers: [{ 
                     name: "nginx",
-                    image: "nginx",
+                    image: "nginx:1.25.3",
                     imagePullPolicy: "IfNotPresent",
                     ports: [{ containerPort: 80 }] 
                 }] 
